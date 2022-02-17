@@ -3,8 +3,9 @@
     to{opacity: 1;}
 }
 :root{
-    --blue:rgb(3, 84, 255);
+    --blue:rgb(0, 82, 150);
     --green:rgba(2, 232, 205, 0.2);
+    --blueHover: rgb(0,0,130);
 }
 
 *{
@@ -12,6 +13,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     animation: fade 1s;
+    transition: 0.5s;
 }
 
 html{
@@ -48,11 +50,7 @@ html{
 #imgMenu{
     display: none;
 }
-#logo p{
-    color: rgb(218, 218, 218);
-    text-shadow: 1px 1px 1px black;
-    margin-top: -2.4rem;
-}
+
 #menu a{
     color: rgb(0,0,44);
 }
@@ -70,7 +68,7 @@ html{
 }
 #menu li:last-child a:hover{
     color: white;
-    background-color: var(--blue);
+    background-color: var(--blueHover);
 
 
 }
@@ -176,7 +174,7 @@ html{
     
 }
 .tag a:hover{
-    background-color: blue;
+    background-color: var(--blueHover);
 }
 #contato{
     color: rgb(236, 236, 236);
@@ -186,6 +184,7 @@ html{
 }
 
 #contato h2{
+    padding: 32px;
     text-align: center;
 }
 #social{
@@ -198,10 +197,6 @@ html{
 }
 #social img{
     width: 48px;
-}
-
-#social a{
-    color: white;
 }
 #content form{
     max-width: 600px;
@@ -216,9 +211,14 @@ input, textarea{
 }
 input[type="submit"]{
     margin-top: 16px;
-    background-color: blue;
+    background-color: var(--blue);
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--blueHover);
 }
 
 @media (max-width:1000px) {
