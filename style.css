@@ -41,11 +41,9 @@ html{
     gap: 16px;
     list-style: none;
 }
-#barraSuperior #logo{
-    text-align: center;
-}
+
 #barraSuperior #logo img{
-    height: 2rem;
+    height: 2.5rem;
 }
 #imgMenu{
     display: none;
@@ -157,7 +155,7 @@ html{
 .tag{
     background: linear-gradient(to right bottom, rgb(0, 0, 44), rgb(0, 0, 30));
     color: white;
-    padding: 16px 24px;
+    padding: 32px 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
