@@ -5,7 +5,7 @@
 :root{
     --blue:rgb(0, 82, 150);
     --green:rgba(2, 232, 205, 0.2);
-    --blueHover: rgb(0,0,130);
+    --blueHover: rgb(0,60,130);
 }
 
 *{
