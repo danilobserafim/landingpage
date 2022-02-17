@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> 
@@ -24,7 +26,7 @@
         </div>
         
         <ul id="menu">
-            <img src="./assets/images/Frame 2.png" alt="Menu" id="imgMenu">
+            <img src="./assets/images/BurgerMenu.png" alt="Menu" id="imgMenu">
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
@@ -49,8 +51,6 @@
                     através de uma tela e alguns botões. <br>
                     O que mais poderia ser feito alem disso?</p>
         </div>
-        
-
         <div id="conhecimentos">
             <h2>Algumas habilidades</h2>
             <div id="skills">
@@ -98,35 +98,31 @@
                     <img src="./assets/images/skills/api rest.png" alt="#">
                     <p>API Rest</p>
                 </div>
-               
-
             </div>
-            
         </div>
     </section>
     <section id="servicos">
         <h2>Produtos e Serviços</h2>
         <div id="tags">
             <div class="tag">
-                <h3>Landing Pages</h3>
+                <h3>Web Sites e Landing Pages</h3>
                 <p>Sua campanha de Marketing Digital completa passando pela página de capitura, página de agradecimento e captação de Leads para lançamento de produtos, conversão e venda</p>
-                <a>Saiba Mais</a>
+                <button onclick="mostraModal('landing')">Saiba Mais</button>
             </div>
             <div class="tag">
                 <h3>Ecommerce</h3>
                 <p>Crie sua loja online e receba todos os cartões ou no boleto bancário, venda o que quiser, roupas, sapatos, relógios, ideias. Seu produto vende mais na internet! </p>
-                <a>Saiba Mais</a>
+                <button onclick="mostraModal('ecommerce')">Saiba Mais</button>
             </div>
             <div class="tag">
                 <h3>Web Apps</h3>
                 <p>Coloque suas ideias em prática! use mapas, armazene e genrencie dados da forma que for necessária para administrar sua empresa ou agradar seu usuário 
                     
                 </p>
-                <a>Saiba Mais</a>
+                <button onclick="mostraModal('webapp')">Saiba Mais</button>
             </div>
         </div>
     </section>
-    
     <footer id="contato">
         <h2>Entre em contato!</h2>
         <div id="content">
@@ -148,9 +144,13 @@
                 <a href="#" target="_blank">
                     <img src="./assets/images/social/Wahtsapp.png" alt="" style="background-color: white; border-radius: 10px;"> 
                 </a>
-
             </div>
         </div>
     </footer>
+    <div id="modal" onclick="escondeModal()">
+        <button onclick="escondeModal()">X</button>
+        <iframe src="" frameborder="0" id="iframeModal"></iframe>
+    </div>
 </body>
+<script src="./script.js"></script>
 </html>
