@@ -4,7 +4,9 @@ var iframeModal = document.getElementById('iframeModal')
 
 function mostraModal(page) {
     iframeModal.src = `./${page}`
-    modal.style = "display: block;" 
+    setTimeout(() => {
+        modal.style = "display: block;"  
+    }, 500);
 }
 function escondeModal() {
     modal.style = "display:none;"

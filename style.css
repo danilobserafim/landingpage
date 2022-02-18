@@ -27,34 +27,31 @@ html{
 
 #modal{
     position: fixed;
-    top: 4rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    background-color: rgba(0, 82, 150, 0.548);
     display: none;
+    height: 100vh;
     width: 100%;
-    height: 96%;
-    border-radius: 10px;
+    z-index: 2;
+    
 }
 #modal button{
-    background-color: none;
+    background-color: transparent;
     border: none;
     position: absolute;
-    right: 32px;
+    right: 16px;
     top: 16px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 4px;
     cursor: pointer;
 }
 
 #modal iframe{
+    margin: 0 0%;
+    width: 100%;
+    height: 100%;
+}
 
-    margin: 1% 5%;
-    width: 90%;
-    height: 90%;
-}
-#modal iframe::-webkit-scrollbar{
-    display: none;
-}
 #barraSuperior{
     padding: 8px;
     width: 100%;

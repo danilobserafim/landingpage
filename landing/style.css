@@ -5,8 +5,38 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: tomato;
-    overflow: auto;
-    height: 150vh;
+    height: 100%;
     width: 100%;
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+article{
+    font-size: 130%;
+    margin: 64px;
+    color: white;
+}
+article h2{
+    margin-bottom: 64px;
+}
+p{
+    margin-top: 32px;
+}
+
+#social{
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+#social img{
+    width: 48px;
+}
+
+@media (max-width:800px) {
+    article{
+        margin: 32px;
+    }
 }
