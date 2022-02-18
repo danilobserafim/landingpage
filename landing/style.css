@@ -7,7 +7,7 @@ box-sizing: border-box;
 body{
     height: 100%;
     width: 100%;
-    background: url(background.png);
+    background: url("./background.png");
     background-repeat: no-repeat;
     background-position: top;
     

@@ -7,7 +7,7 @@
     body{
         height: 90vh;
         width: 100%;
-        background: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0)30%), url(background.png);
+        background: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0)30%), url("./background.png");
         background-repeat: no-repeat;
         background-position: top;
         
