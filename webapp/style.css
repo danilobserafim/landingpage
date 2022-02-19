@@ -7,12 +7,14 @@
     body{
         height: 90vh;
         width: 100%;
-        background: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0)30%), url("./background.png");
+        background: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0)), url("./background.jpg");
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: bottom;
+        background-size: cover;
         
     }
     article{
+        text-shadow: 1px 1px 2px black;
         font-size: 130%;
         margin: 64px;
         color: white;
@@ -25,17 +27,28 @@
     }
     
     #social{
+        border-radius: 10px 0 0 10px;
         display: flex;
         gap: 16px;
         position: absolute;
-        right: 32px;
         bottom: 32px;
+        min-width: 300px;
+        padding: 8px;
+        right: 0;
+        justify-content: left;
+        background-color: rgb(0, 82, 150);
     }
     #social img{
         width: 48px;
     }
     
     @media (max-width:800px) {
+        body{
+        height: 96vh;
+        }
+        #social{
+            min-width: 250px;
+        }
         article{
             margin: 32px;
         }
