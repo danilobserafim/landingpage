@@ -63,14 +63,14 @@ html{
     justify-content: space-around;
     z-index: 1;
 }
+#barraSuperior #logo img{
+    height: 2.5rem;
+}
 #menu{
     align-items: center;
     display: flex;
     gap: 16px;
     list-style: none;
-}
-#barraSuperior #logo img{
-    height: 2.5rem;
 }
 #imgMenu{
     display: none;
@@ -216,33 +216,8 @@ html{
 #social img{
     width: 48px;
 }
-#content form{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 32px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-input, textarea{
-    font-size: 1rem;
-    border-radius: 4px;
-    padding: 8px;
-}
-input[type="submit"]{
-    border-radius: 4px;
-    margin-top: 16px;
-    background-color: var(--blue);
-    color: white;
-    border: none;
-    cursor: pointer;
-}
 
-input[type="submit"]:hover{
-    background-color: var(--blueHover);
-}
-
-@media (max-width:1000px) {
+@media (max-width:1001px) {
 
 
     #barraSuperior{
@@ -344,5 +319,8 @@ input[type="submit"]:hover{
 @media (max-width:600px) {
     .tag{
         max-width: 95vw;
+        }
+        #contato{
+            padding: 16px;
         }
 }

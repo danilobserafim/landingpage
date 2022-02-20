@@ -28,7 +28,7 @@
     
     #social{
         display: flex;
-        gap: 16px;
+        gap: 8px;
         position: absolute;
         bottom: 32px;
 
