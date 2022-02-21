@@ -121,9 +121,9 @@ html{
     text-align: end;
 }
 #home img{
-    filter: hue-rotate(-20deg);
     border-radius: 50%;
     background: linear-gradient(to right bottom, var(--blue)-150% , var(--green));
+    filter: brightness(1.5);
 }
 #sobre{
     background: linear-gradient(to right bottom, rgb(0, 0, 44), rgb(0, 0, 30));
@@ -200,7 +200,10 @@ html{
     padding: 32px;
 
 }
-
+#contato #email{
+    display: block;
+    text-align: center;
+}
 #contato h2{
     padding: 32px;
     text-align: center;
