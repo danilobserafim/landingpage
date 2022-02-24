@@ -123,7 +123,7 @@ html{
 #home img{
     border-radius: 50%;
     background: linear-gradient(to right bottom, var(--blue)-150% , var(--green));
-    filter: brightness(1.5);
+    filter: brightness(1.3);
 }
 #sobre{
     background: linear-gradient(to right bottom, rgb(0, 0, 44), rgb(0, 0, 30));
