@@ -1,4 +1,4 @@
-var header = document.getElementById("body")
+//Configurações do MODAL
 var modal = document.getElementById('modal')
 var iframeModal = document.getElementById('iframeModal')
 
@@ -11,4 +11,9 @@ function mostraModal(page) {
 function escondeModal() {
     modal.style = "display:none;"
 }
+
+
+
+
+
 
