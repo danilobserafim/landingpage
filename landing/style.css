@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 
 body{
+    font-family: sans-serif;
     height: 90vh;
     width: 100%;
     background: linear-gradient(to right bottom, black, transparent), url("./background.jpg");
@@ -22,7 +23,23 @@ article h2{
     margin-bottom: 64px;
 }
 p{
-    margin-top: 32px;
+    margin: -16px 0 32px 0 ;
+
+}
+article a{
+    background-color: rgb(0, 82, 150);
+    padding: 8px 64px 8px 8px ;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    filter: brightness(1.1);
+}
+article small{
+    display: block;
+    margin: 16px 8px;
+    font-size: small;
 }
 
 #social{
