@@ -143,7 +143,6 @@ html{
 }
 #conhecimentos{
     background-color: aliceblue;
-    color: var(--blueHover);
     padding: 0 0 32px 0;
 }
 #conhecimentos h2{
@@ -156,7 +155,6 @@ html{
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
-    margin-top: 16px;
 }
 .skill{
     width: 80px;
@@ -166,19 +164,24 @@ html{
     width: 48px;
 }
 #tags{
-    margin: 64px 0;
+    padding: 64px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 48px;
 }
+#servicos{
+    background: aliceblue;
+
+}
 #servicos h2{
     text-align: center;
-    margin-top: 64px;
+    padding-top: 64px;
 }
 #conhecimentos h2, #servicos h2{
+    color: var(--blueHover);
     font-size: 3rem;
-    margin:  32px 0;
+    margin:  0 0 32px 0;
 }
 .tag{
     background: linear-gradient(to right bottom, rgb(0, 0, 44), rgb(0, 0, 30));
