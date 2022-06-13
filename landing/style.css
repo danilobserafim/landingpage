@@ -36,11 +36,6 @@ article a{
 a:hover{
     filter: brightness(1.1);
 }
-article small{
-    display: block;
-    margin: 16px 8px;
-    font-size: small;
-}
 
 #social{
     display: flex;
