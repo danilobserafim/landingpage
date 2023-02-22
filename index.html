@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio</title>
+</head>
+<body>
+
+    <div id="header">
+        <img src="./assets/wings.png" alt="Logo" id="logo">
+
+        <div id="menu">
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="sobre">
+        <article>
+            <h1>Olá!  Eu sou Danilo Serafim,</h1>
+            <p id="subtitle">
+                bem-vindo ao meu portfólio de desenvolvimento de software. 
+            </p>
+        </article>
+        <article>
+            <p>
+                Soluções personalizadas para as necessidades da sua empresa: Se você está procurando soluções de software sob medida para as necessidades específicas da sua empresa, eu posso ajuda-la a crescer e prosperar.
+            </p>    
+        </article>
+    </div>
+
+
+
+
+    <div id="projetos">
+        <h1>Projetos</h1>
+        
+        <div id="container">
+            <a href="https://danilobserafim.github.io/barfim-agencia_digital/" target="_blank" class="tag">
+                <img src="./assets/site_institucional.jpg" alt="">
+                <h3>Site institucional</h3>
+                <p>O primeiro projeto em meu portfólio é [nome do projeto]. Este projeto envolveu o desenvolvimento de um aplicativo móvel para iOS e Android, que permite aos usuários gerenciar seus dados de saúde. O aplicativo inclui recursos de registro, monitoramento e compartilhamento de informações de saúde, e foi projetado com uma interface de usuário intuitiva e atraente.</p>
+    
+            </a>
+            
+            <div class="tag">
+                <img src="./assets/web_tag.jpg" alt="">
+                <h3>Aplicações Web</h3>
+                <p>O segundo projeto é [nome do projeto]. Este projeto envolveu o desenvolvimento de um site de comércio eletrônico para uma loja de roupas de moda. O site inclui recursos como navegação fácil, carrinho de compras, integração de pagamento seguro e envio de newsletters. Além disso, o site foi desenvolvido com uma interface de usuário moderna e responsiva para garantir uma experiência de compra perfeita.</p>
+                
+            </div>
+            
+            <div class="tag">
+                <img src="./assets/mobile_tag.png" alt="">
+                <h3>Mobile app</h3>
+                <p>O terceiro projeto é [nome do projeto]. Este projeto envolveu o desenvolvimento de um sistema de gerenciamento de banco de dados para uma empresa de saúde. O sistema permitiu que a empresa gerenciasse com eficiência dados de pacientes, registros médicos e outros dados sensíveis. Foi desenvolvido com recursos de segurança avançados para garantir a privacidade e proteção dos dados do paciente.</p>
+                
+            </div>
+        </div>
+        
+        
+
+    </div>
+
+
+
+
+   <div id="habilidades">
+    <h1>Habilidades</h1>
+    <div id="container">
+        <article>
+            
+            <h2 class="title">
+                React JS
+            </h2>
+            <p class="subtitle">
+                Criando interfaces de usuário ricas em recursos e responsivas para aplicativos web.
+            </p>
+
+            <p class="paragraph">
+                Desenvolvimento de interfaces de usuário personalizadas com React JS para oferecer uma experiência envolvente para seus usuários.
+            </p>
+        </article>
+
+        <article>
+            
+            <h2 class="title">
+                React Native
+            </h2>
+            <p class="subtitle">
+                Criando aplicativos móveis nativos de alta qualidade.
+            </p>
+
+            <p class="paragraph">
+                Desenvolvimento de aplicativos móveis nativos para iOS e Android com React Native para oferecer uma experiência de usuário nativa.
+            </p>
+        </article>
+
+        <article>
+            
+            <h2 class="title">
+                MongoDB e MySQL
+            </h2>
+            <p class="subtitle">
+                Criando soluções escaláveis e de alto desempenho para gerenciamento de banco de dados.
+            </p>
+
+            <p class="paragraph">
+                Com habilidades avançadas em MongoDB e MySQL, posso criar soluções escaláveis de alto desempenho que oferecem um acesso rápido e eficiente aos seus dados.
+            </p>
+        </article>
+
+        
+        <article>
+            
+            <h2 class="title">
+                Node JS
+            </h2>
+            <p class="subtitle">
+                Criando aplicativos web escaláveis e de alto desempenho.
+            </p>
+
+            <p class="paragraph">
+                Com habilidades avançadas em bancos de dados, integração de API e gerenciamento de sessões, posso criar aplicativos da web personalizados que atendam às suas necessidades de negócios.
+                
+            </p>
+        </article>
+
+        
+    </div>
+   </div>
+   
+   <div id="chamada">
+       
+       <p>
+            Vamos trabalhar juntos para levar sua empresa ao próximo nível!<br>
+            Entre em contato agora!
+       </p>
+
+    </div>
+    <Footer id="contato">
+        <div onsubmit="handleSubmit()">
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <textarea name="assunto" id="assunto" cols="30" rows="10" placeholder="Dúvida ou propósta"></textarea>
+            <button onclick="handleSubmit()">Enviar</button>
+        </div>
+    </Footer>
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
