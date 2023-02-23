@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
     <title>Inicio</title>
 </head>
 <body>
@@ -145,21 +148,23 @@
    <div id="chamada">
        
        <p>
-            Vamos trabalhar juntos para levar sua empresa ao próximo nível!<br>
-            Entre em contato agora!
+            Vamos trabalhar juntos para levar sua empresa ao próximo nível,<br>
+            <span class="destaque">
+                entre em contato agora!
+            </span>
        </p>
 
     </div>
     <Footer id="contato">
-        <div onsubmit="handleSubmit()">
-            <input type="text" name="nome" id="nome" placeholder="Nome">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <textarea name="assunto" id="assunto" cols="30" rows="10" placeholder="Dúvida ou propósta"></textarea>
-            <button onclick="handleSubmit()">Enviar</button>
-        </div>
+        <a href="https://www.linkedin.com/in/danilobserafim/" target="_blank">
+            <img src="./assets/Linkedin-logo.png" id="logoLinkedin" alt="">
+        </a>
+        <a href="https://www.instagram.com/dev.serafim/" target="_blank">
+            <img src="./assets/instagram-logo.png"  id="logo"  alt="">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=8197064742" target="_blank">
+            <img src="./assets/WhatsApp_logo.png" id="logo" class="shadowned" alt="">
+        </a>
     </Footer>
-    <script src="script.js">
-       
-    </script>
 </body>
 </html>
