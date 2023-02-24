@@ -93,25 +93,26 @@ body{
     transition: 0.3s;
     cursor: pointer;
     min-width: 300px;
+    text-decoration: none;
 
 }
 #projetos .tag:hover{
         box-shadow: 0 0 5px black;
     
-    
 }
 #projetos .tag img{
     width: 100%;
-    border-radius: 10px 10px 100px 0;
+    border-radius: 10px 10px 300px 00px;
 }
 
 #projetos .tag h3{
-    margin: 8px;
+    margin: 32px;
 }
 
 #projetos .tag p{
-    margin: 16px 8px;
+    margin: 32px;
     color: gray;
+    font-weight: 700;
 
 }
 #habilidades{
@@ -219,6 +220,14 @@ body{
 #projetos .tag{
     width: 100%;
     max-width: none;
+}
+#logo{
+    max-width: 64px;
+    max-height: 64px;
+}
+#logoLinkedin{
+    max-width: 64px;
+    max-height: 64px;
 }
     
 }

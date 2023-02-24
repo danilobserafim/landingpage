@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+img{
+    width: 100%;
+}
+#container h1{
+    font-family: "Quicksand";
+}
+#container p {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+}
