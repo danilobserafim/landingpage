@@ -37,8 +37,9 @@ body{
     display: flex;
     justify-content: center;
     gap: 64px;
-    padding: 64px 0;
     align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 64px 0;
 }
 #sobre > img{
     height: 671px;
