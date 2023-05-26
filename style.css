@@ -40,10 +40,11 @@ body{
     padding: 64px 0;
     align-items: flex-end;
 }
-#sobre img{
-    width: 700px;
+#sobre > img{
+    width: 752.96px;
     height: 671px;
-    margin-right: -200px;
+    border-radius:0 0 250px  400px;
+    transform: rotate(8deg);
 }
 #sobre article{
     display: flex;
